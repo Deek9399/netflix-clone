@@ -34,6 +34,7 @@
   font-size: 1rem;
   font-weight: 800;
   color: white;
+  border: none;
 }
 .loginScreen__body {
   position: absolute;
@@ -44,11 +45,35 @@
   z-index: 1;
   padding: 20px;
   color: white;
+  left: 0;
+  right: 0; /* aligns sign in form in center*/
 }
 .loginScreen__body > h1 {
   font-size: 3.125rem;
   margin-bottom: 20px;
 }
+.loginScreen__body > h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
 .loginScreen__body > h3 {
-  font-weight: 400px;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.loginScreen__input > form > input {
+  padding: 10px;
+  outline-width: 0; /* removes outline of input field*/
+  height: 30px;
+  width: 30%;
+  border: none;
+  max-width: 600px;
+}
+.loginScreen__getStarted {
+  padding: 16px 20px;
+  border: none;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
 }
